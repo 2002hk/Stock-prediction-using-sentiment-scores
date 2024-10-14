@@ -37,6 +37,11 @@ The dataset consists of two primary components:
 - **`Data Imbalance`**:The dataset may contain more "no movement" or "down" predictions than "up," leading to bias in the model. Techniques like resampling or class weights were used to address this issue..
 - **`SData Quality`**:  Tweets often contain noisy data (e.g., slang, misspellings), requiring preprocessing steps such as tokenization, stop-word removal, and text cleaning.
 ## **Model Accuracy**
-![Stock Movement Prediction](graph.png)
+![Stock Movement Prediction](model_acc.png)
+
+### **Future Work**:
+- Increase the dataset size by collecting more tweets over a longer time frame.
+- Use deep learning models like LSTMs or transformers to improve sentiment analysis.
+- Explore using ensemble models or advanced techniques to further improve prediction accuracy.
 
  
