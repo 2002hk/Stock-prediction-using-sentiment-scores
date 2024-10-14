@@ -2,6 +2,9 @@
 
 ## **Overview**
 This project aims to predict stock market movements based on sentiment analysis of tweets related to specific stocks or companies. By analyzing the sentiment of social media data (e.g., Twitter), the model attempts to forecast whether a stock's price will go up or down.
+This project leverages sentiment analysis on Twitter data to predict stock market movements.
+
+![Stock Movement Prediction](graph.png)
 
 ## **Objective**
 To build a machine learning model that predicts stock movement (up or down) based on sentiment scores derived from Twitter data. The sentiment scores are used as features to predict stock market trends, with the ultimate goal of improving stock movement predictions.
@@ -20,11 +23,11 @@ The dataset consists of two primary components:
 - **`Stock_Prediction.ipynb`**: Gooogle colab notebook conatins all code for stck prediction.
 - **`data_scraping_twitter_stocks.ipynb`**: Data scraping code from twitter.
 - **`README.md`**: Instructions and project overview (this file).
-
+  
 ## **Installation Instructions**
 ### **Requirements**:
 - Python 3.x
-- Libraries: `pandas`, `numpy`, `scikit-learn`, `nltk`, `transformer`,`matplotlib`, `ntscraper`, 'yfinance', 'Plotly'
+- Libraries: `pandas`, `numpy`, `scikit-learn`, `nltk`, `transformer`,`matplotlib`, `ntscraper`, `yfinance`, `Plotly`
 
 ### **Installation Steps**:
 1. Clone this repository:
@@ -33,8 +36,7 @@ The dataset consists of two primary components:
 ## **Challenges**
 - **`Data Imbalance`**:The dataset may contain more "no movement" or "down" predictions than "up," leading to bias in the model. Techniques like resampling or class weights were used to address this issue..
 - **`SData Quality`**:  Tweets often contain noisy data (e.g., slang, misspellings), requiring preprocessing steps such as tokenization, stop-word removal, and text cleaning.
-## **Results**
-- **`Accuracy`**:
-- **`F1-Score`**:  Tweets often contain noisy data (e.g., slang, misspellings), requiring preprocessing steps such as tokenization, stop-word removal, and text cleaning.
+## **Model Accuracy**
+![Stock Movement Prediction](graph.png)
 
  
